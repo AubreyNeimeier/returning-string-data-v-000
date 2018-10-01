@@ -10,7 +10,8 @@ class PostsController < ApplicationController
   end
 
   def show
-    #post = Post.find(params[:id])
+    post = Post.find(params[:id])
+    binding.pry
   end
 
   def new
